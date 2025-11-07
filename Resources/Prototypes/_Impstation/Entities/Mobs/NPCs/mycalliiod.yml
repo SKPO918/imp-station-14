@@ -1,0 +1,38 @@
+- type: entity
+  name: mycalliiod
+  parent: SimpleMobBase
+  id: MobMycalliiod
+  description: Holy fuck. You need to kill and eat this NOW!!
+  components:
+  - type: Sprite
+    sprite: _Impstation/Mobs/Aliens/mycalliiod.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      sprite: _Impstation/Mobs/Aliens/mycalliiod.rsi
+      state: mycalliiod
+  - type: Body
+    prototype: Mycalliiod
+  - type: FlavorProfile
+    flavors:
+    - flavor-complex-mycalliiod
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: mycalliiod-0
+      Critical:
+        Base: mycalliiod-0
+      Dead:
+        Base: mycalliiod-0
+  - type: Emoting
+  - type: MovementSpeedModifier
+    baseWalkSpeed : 3
+    baseSprintSpeed : 4.5
+  - type: Butcherable
+    spawned:
+    - id: FoodBanana
+      amount: 5
+    - id: MaterialBananium
+      amount: 1
+  - type: Bloodstream
+    bloodMaxVolume: 300
+    bloodReagent: Bananadine

@@ -1,43 +1,4 @@
 ﻿Entries:
-- author: britno
-  changes:
-  - message: Irwizine now only takes 10u to pacify creatures, as opposed to 15u!
-    type: Tweak
-  - message: Resized the Muldoon to 2x4.
-    type: Tweak
-  - message: Irwizine and Tranquiliser darts are now less expensive to make at the
-      sec fab.
-    type: Tweak
-  - message: Gave Zookeepers a utility belt, and made it so that the belt can hold
-      both the darts.
-    type: Tweak
-  - message: The Irwizine dart now only takes one shot to work!
-    type: Tweak
-  id: 1921
-  time: '2025-06-28T03:59:10.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2884
-- author: meridiadottxt
-  changes:
-  - message: added the GX-14 Liquidator, an admin spawn only death squad shuttle
-    type: Add
-  id: 1922
-  time: '2025-06-28T04:02:20.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2885
-- author: maelines
-  changes:
-  - message: You can look evil and fucked up and dark-sided.... ("Gloomy" marking
-      for Human, Dwarves, Slime-folk and Thaven.)
-    type: Add
-  id: 1923
-  time: '2025-06-28T04:04:11.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2892
-- author: mqole
-  changes:
-  - message: Random character appearances have gotten even zanier.
-    type: Tweak
-  id: 1924
-  time: '2025-06-28T04:01:37.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2855
 - author: Mousetrinity
   changes:
   - message: hear ye hear ye! the rules of the initial infected have been slightly
@@ -4170,3 +4131,39 @@
   id: 2420
   time: '2025-11-11T09:05:58.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3636
+- author: DVDPlayerOfDiscordFame
+  changes:
+  - message: The Handheld Criminal Records computer has been removed from the SecLink
+      radio, but is still present in the Detective's closet, and will now spawn in
+      the Head of Security's inventory.
+    type: Tweak
+  - message: Three new items can now be purchased in the SecLink Radio under the "Utility"
+      section!
+    type: Add
+  id: 2421
+  time: '2025-11-11T19:14:01.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3540
+- author: mqole
+  changes:
+  - message: The handheld crew monitor works again.
+    type: Fix
+  id: 2422
+  time: '2025-11-12T08:01:31.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3715
+- author: mousesweater
+  changes:
+  - message: welding masks don't fit on borgs. get flashed, idiot.
+    type: Remove
+  id: 2423
+  time: '2025-11-12T08:43:06.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3709
+- author: DVDPlayerOfDiscordFame
+  changes:
+  - message: You can craft a cool glaive at the Security Techfab now!
+    type: Add
+  - message: You can choose a knife and a tourniquet for your security loadout now
+      instead of a pistol and magazine!
+    type: Add
+  id: 2424
+  time: '2025-11-12T08:47:22.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3710
